@@ -14,7 +14,7 @@
 
 @property (nonatomic,retain) CALayer *imageLayer;
 
-- (IBAction)removeLayer:(id)sender;
+- (IBAction)hideLayer:(id)sender;
 
 @end
 

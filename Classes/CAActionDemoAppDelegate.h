@@ -11,8 +11,8 @@
 @class CAActionDemoViewController;
 
 @interface CAActionDemoAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    CAActionDemoViewController *viewController;
+  UIWindow *window;
+  CAActionDemoViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
