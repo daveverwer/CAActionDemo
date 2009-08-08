@@ -16,7 +16,6 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* CAActionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CAActionDemoViewController.m */; };
 		5564D071102D60DA009A8CC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5564D070102D60DA009A8CC5 /* QuartzCore.framework */; };
-		5564D1AA102D70C5009A8CC5 /* CAActionDemoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5564D1A9102D70C5009A8CC5 /* CAActionDemoLayer.m */; };
 		5564D1FB102D8379009A8CC5 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5564D1FA102D8379009A8CC5 /* Image.png */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +33,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CAActionDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAActionDemo_Prefix.pch; sourceTree = "<group>"; };
 		5564D070102D60DA009A8CC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		5564D1A8102D70C5009A8CC5 /* CAActionDemoLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAActionDemoLayer.h; sourceTree = "<group>"; };
-		5564D1A9102D70C5009A8CC5 /* CAActionDemoLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAActionDemoLayer.m; sourceTree = "<group>"; };
 		5564D1FA102D8379009A8CC5 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CAActionDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CAActionDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,8 +59,6 @@
 				1D3623250D0F684500981E51 /* CAActionDemoAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* CAActionDemoViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* CAActionDemoViewController.m */,
-				5564D1A8102D70C5009A8CC5 /* CAActionDemoLayer.h */,
-				5564D1A9102D70C5009A8CC5 /* CAActionDemoLayer.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -177,7 +172,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CAActionDemoAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* CAActionDemoViewController.m in Sources */,
-				5564D1AA102D70C5009A8CC5 /* CAActionDemoLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
